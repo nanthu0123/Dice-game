@@ -1,4 +1,6 @@
-// generate the random number between 1 to 6 for dice1 
+function DiceGame(){
+
+    // generate the random number between 1 to 6 for dice1 
 var randomNumber1=(Math.random()*6)+1;
 randomNumber1=Math.floor(randomNumber1)
 
@@ -31,4 +33,12 @@ else if(randomNumber1<randomNumber2){
 else if(randomNumber1===randomNumber2){
     document.querySelector('h1').innerHTML=('draw')
 }
+}
+// set the dice number 1 to both dice initially
+document.querySelector(".img1").setAttribute("src","images/dice1.png")
+document.querySelector(".img2").setAttribute("src","images/dice1.png")
+document.querySelector('h1').innerHTML=('click the button to start')
+// when the user click the button, the function gets call and dice starts to roll
+document.querySelector(".btn").addEventListener("click",DiceGame)
+
 

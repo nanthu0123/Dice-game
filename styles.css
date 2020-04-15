@@ -1,7 +1,11 @@
-.container {
+.container1,.container2 {
   width: 70%;
+  
   margin: auto;
   text-align: center;
+}
+.container1{
+  height: 350px;
 }
 
 .dice {
@@ -30,6 +34,22 @@ p {
 
 img {
   width: 80%;
+}
+.btn{
+  width: 150px;
+  height: 60px;
+  margin: 10% 50%;
+  border: #232931 solid;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #4ECCA3;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  cursor: pointer;
+  position: relative;
+  right: 75px;
+
+  
 }
 
 footer {
