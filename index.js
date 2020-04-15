@@ -37,7 +37,7 @@ else if(randomNumber1===randomNumber2){
 // set the dice number 1 to both dice initially
 document.querySelector(".img1").setAttribute("src","images/dice1.png")
 document.querySelector(".img2").setAttribute("src","images/dice1.png")
-document.querySelector('h1').innerHTML=('click the button to start')
+document.querySelector('h1').innerHTML=('Roll Me')
 // when the user click the button, the function gets call and dice starts to roll
 document.querySelector(".btn").addEventListener("click",DiceGame)
 
